@@ -8,6 +8,8 @@ Parameter 2 is end date
 
 This script expects applicants.sqlite3 in the current directory and sqlite3 on the system.
 
+There may well be a slight bug in how weeks are broken up. I was unable to receive confirmation if the example values on the problem description were actual expected values or merely a formatting display.
+
 ---
 
 The rest of the files are the apply functionality.
