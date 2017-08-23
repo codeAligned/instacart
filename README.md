@@ -6,3 +6,21 @@ dbscript.sh - run this to generate csv report to stdout with number of applicant
 Parameter 1 is start date
 Parameter 2 is end date
 
+---
+
+The rest of the files are the apply functionality.
+landing.html is the landing page
+apply.php handles the application
+confirm.php stores the results
+edit.php modifies an application
+
+The rest are helper files.
+
+The pages only require php.
+
+The output is in the confirm page, in the html. This is contrary to specs, and is a result of the fact that PHP seems to run either in a "write to server console" mode or a "write to HTTP response" but not both. Further, finding a writeable file depends on the environment. So key-value pairs are output on confirmation.
+
+The style is nonexistent; I am not a front-end developer.
+
+There are no checks for validity of data, like parsing phone numbers.
+
