@@ -6,6 +6,8 @@ dbscript.sh - run this to generate csv report to stdout with number of applicant
 Parameter 1 is start date
 Parameter 2 is end date
 
+This script expects applicants.sqlite3 in the current directory and sqlite3 on the system.
+
 ---
 
 The rest of the files are the apply functionality.
